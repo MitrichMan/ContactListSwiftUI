@@ -43,7 +43,7 @@ extension Person {
         for index in 0..<iterationCount {
             personList.append(
                 Person(
-                    id: index,
+                    id: index + 1,
                     name: names[index],
                     surname: surnames[index],
                     phone: phones[index],

@@ -14,8 +14,8 @@ struct SectionedContactListView: View {
         NavigationStack {
             List(contacts) { contact in
                 Section(header: Text(contact.fullName)) {
-                    ContactPhoneAndEmailView(contact: contact)
-                }
+                    Label(contact.phone, systemImage: Contacts.phone.rawValue)
+                    Label(contact.email, systemImage: Contacts.email.rawValue)                }
             }
             .navigationTitle("Contact List")
         }

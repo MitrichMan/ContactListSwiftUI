@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D29E9A72A052929003FA98C /* ContactPhoneAndEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29E9A62A052929003FA98C /* ContactPhoneAndEmailView.swift */; };
 		4D5AE5242A05129B004AE22D /* ContactListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AE5232A05129B004AE22D /* ContactListSwiftUIApp.swift */; };
 		4D5AE5262A05129B004AE22D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AE5252A05129B004AE22D /* ContentView.swift */; };
 		4D5AE5282A05129E004AE22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5AE5272A05129E004AE22D /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D29E9A62A052929003FA98C /* ContactPhoneAndEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPhoneAndEmailView.swift; sourceTree = "<group>"; };
 		4D5AE5202A05129B004AE22D /* ContactListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5AE5232A05129B004AE22D /* ContactListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSwiftUIApp.swift; sourceTree = "<group>"; };
 		4D5AE5252A05129B004AE22D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				4D5AE5382A051519004AE22D /* ContactListView.swift */,
 				4D5AE53C2A051555004AE22D /* SectionedContactListView.swift */,
 				4D5AE53A2A05152A004AE22D /* DetailsView.swift */,
-				4D29E9A62A052929003FA98C /* ContactPhoneAndEmailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,7 +181,6 @@
 				4D5AE5262A05129B004AE22D /* ContentView.swift in Sources */,
 				4D5AE5342A0513B6004AE22D /* DataManager.swift in Sources */,
 				4D5AE5362A0513C4004AE22D /* Person.swift in Sources */,
-				4D29E9A72A052929003FA98C /* ContactPhoneAndEmailView.swift in Sources */,
 				4D5AE5242A05129B004AE22D /* ContactListSwiftUIApp.swift in Sources */,
 				4D5AE53B2A05152A004AE22D /* DetailsView.swift in Sources */,
 			);

@@ -19,7 +19,8 @@ struct DetailsView: View {
                     .frame(width: 220, height: 220)
                 Spacer()
             }
-            ContactPhoneAndEmailView(contact: contact)
+            Label(contact.phone, systemImage: Contacts.phone.rawValue)
+            Label(contact.email, systemImage: Contacts.email.rawValue)
         }
         .navigationTitle(contact.fullName)
     }
